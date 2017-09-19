@@ -1,1 +1,90 @@
+body {
+  background-image: url("https://sjsuconstruction.files.wordpress.com/2013/12/dsc05722.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+.title {
+  background: white;
+  padding: 10px;
+  margin: auto;
+  margin-top: 250px;
+  margin-bottom: 300px;
+  text-align: center;
+  vertical-align: middle;
+  width: 600px;
+  opacity: 0.7;
+  font-size: 1.5em;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+}
+
+#navbar {
+  position:relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+#navbar nav {
+  border-left: 1px solid #ccc;
+}
+
+#navbar nav a {
+  display: inline-block;
+  width: 16.5%;
+  margin: 0;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  text-decoration: none;
+  font: 1em "Trebuchet MS", Arial, sans-serif;
+}
+
+#navbar nav a.selected {
+  background: black;
+  color: white;
+}
+
+#navbar nav a:hover {
+  color: white;
+  background: black;
+  opacity: 1;
+
+}
+.wrapper {
+  background-color: black;
+  opacity: 0.75;
+}
+
+#navbar nav a.menu-icon {
+  display: none;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding-bottom: 200px;
+  width: 100%;
+  opacity: 0.75;
+}
+
+img.{
+  padding-bottom: 0px;
+  margin: 0%;
+  border: solid;
+  border-color: white;
+}
+
+#nav-button {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
