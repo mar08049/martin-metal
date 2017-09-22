@@ -1,23 +1,25 @@
 body {
-    background: red url('http://www.desktopas.com/files/2013/06/Images-1920x1200.jpg') no-repeat;
-    background-size: 500px 500px;
+  background: red url("https://farm5.staticflickr.com/4406/36566168053_61195fa5fe_z.jpg");
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .title {
   background: white;
-  padding: 10px;
+  padding: 5px;
   margin: auto;
   margin-top: 250px;
   margin-bottom: 300px;
   text-align: center;
   vertical-align: middle;
-  width: 600px;
+  width: 850px;
   opacity: 0.7;
   font-size: 1.5em;
 }
 
 h1 {
-  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+   font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
 }
 
 #navbar {
@@ -36,7 +38,7 @@ h1 {
 
 #navbar nav a {
   display: inline-block;
-  width: 16.6%;
+  width: 18.3%;
   margin: 0;
   text-transform: uppercase;
   color: white;
@@ -52,9 +54,9 @@ h1 {
 }
 
 #navbar nav a:hover {
-  color: white;
-  background: black;
-  opacity: 1;
+  color: black;
+  background: white;
+  opacity: .75;
 
 }
 .wrapper {
@@ -66,14 +68,6 @@ h1 {
   display: none;
 }
 
-footer {
-  background-color: black;
-  color: white;
-  padding-bottom: 200px;
-  width: 100%;
-  opacity: 0.75;
-}
-
 img.{
   padding-bottom: 0px;
   margin: 0%;
@@ -82,6 +76,74 @@ img.{
 }
 
 #nav-button {
-  padding-top: 22px;
+  margin-top: 0;
   padding-bottom: 22px;
+}
+
+nav {
+  height: 64px;
+}
+
+#logo {
+  float: left;
+  border-right: 1px solid #ccc;
+  border-color: white;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+#nav-button {
+  padding-top: 22px;
+}
+
+.sub-page {
+  background: white;
+  padding: 5px;
+  margin: auto;
+  margin-top: 15px;
+  border-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  width: 500px;
+  opacity: 0.7;
+  font-size: 1.5em;
+  height: 115px;
+  padding: 5px;
+}
+
+.sub-paragraph {
+  width: 90%;
+  position: center;
+  background-color: white;
+  opacity: .75;
+  margin:auto;
+  height: 750px;
+  font-size: 1.5em;
+}
+
+.gallary-pics {
+  position: relative;
+  margin-top: 60px;
+  margin-right: 40px;
+  right: 10px;
+  width: 40%;
+  height: 425px;
+}
+
+.gallary-pics1 {
+  margin: 20px;
+  width: 40%;
+  float: left;
+  position: relative;
+}
+.col-1 {
+  float: left;
+  width: 43%;
+  position: center;
+  background-color: white;
+  opacity: .75;
+  margin-top: 60px;
+  margin-left: 40px;
+  height: 425px;
+  font-size: 1.5em;
+  padding: 20px;
 }
