@@ -1,9 +1,6 @@
 body {
-  background-image: url("https://sjsuconstruction.files.wordpress.com/2013/12/dsc05722.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: red url('http://www.desktopas.com/files/2013/06/Images-1920x1200.jpg') no-repeat;
+    background-size: 500px 500px;
 }
 
 .title {
@@ -39,7 +36,7 @@ h1 {
 
 #navbar nav a {
   display: inline-block;
-  width: 16.5%;
+  width: 16.6%;
   margin: 0;
   text-transform: uppercase;
   color: white;
